@@ -1,62 +1,21 @@
-*{
-    text-align: justify;
+.header{
+    background-color: brown;
 }
-.lorem{
-    color:bisque;
+.arc{
+    background-color: aquamarine;
+}
+.footer{
     background-color: darkolivegreen;
 }
-#fp{
-    color: bisque;
-    background-color: darkgreen;
-}
-.box{
-    background-color: darkolivegreen;
-}
-b,strong{
-    color: brown;
-}
-li.box{
-    background-color: coral;
-}
-.blog{
-    color:palevioletred;
-    background-color: darkolivegreen;
-    border: 10px solid darkorange;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
-    width: 50%;
-    height: 300px;
-}
-.head{
-    height: 300px;
-    background-image: url("Image/coding.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: darkolivegreen;
-    background-blend-mode: multiply;
-    color: bisque;
-}
-#one{
-    color: brown;
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
-    margin-top: 10px;
-    height: 30px;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 15px 5px 15px 10px red;
-}
-input{
+label{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-input[type="submit"]{
-    color: red;
-    background-color: chartreuse;
-    padding: 10px 30px;
-    border: 5px solid blue;
+table{
+    border-collapse: collapse;
+    border: 5px solid yellow;
+}
+th,td{
+    border: 2px solid red;
+    padding: 5px 15px;
 }
